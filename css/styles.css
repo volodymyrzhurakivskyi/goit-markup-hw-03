@@ -353,6 +353,7 @@ ul {
 
 .portfolio-item {
   background: var(--white);
+  max-width: 360px;
 }
 
 .img-portfolio {
@@ -392,7 +393,7 @@ ul {
 }
 
 /*-------footer styles-------*/
-.footer {
+footer {
   background: var(--navy-blue);
   margin-top: auto;
   padding-top: 100px;
