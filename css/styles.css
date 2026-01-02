@@ -214,9 +214,8 @@ ul {
   border-radius: 4px;
   padding-block: 16px;
   padding-inline: 32px;
-  /* max-width: 169px;
-  height: 56px; */
   margin: auto;
+  border: none;
 }
 
 .hero-button:hover,
@@ -293,6 +292,12 @@ ul {
   width: calc((100% - 72px) / 4);
 }
 
+.img-team {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 .team-subtitle-text {
   display: flex;
   align-items: center;
@@ -350,6 +355,12 @@ ul {
   background: var(--white);
 }
 
+.img-portfolio {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 .portfolio-subtitle-text {
   display: flex;
   align-items: flex-start;
@@ -357,6 +368,11 @@ ul {
   flex-direction: column;
   gap: 8px;
   padding: 32px 16px;
+  border-bottom: 1px solid var(--cornflower);
+  border-left: 1px solid var(--cornflower);
+  border-right: 1px solid var(--cornflower);
+  padding-block: 32px;
+  padding-inline: 16px;
 }
 .portfolio-subtitle {
   font-weight: 500;
